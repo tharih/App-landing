@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 // import Player from "./components/player/Player";
 // import Artists from "./components/artists/Artists";
 // import Producers from "./components/producers/Producers";
@@ -36,7 +36,7 @@ function App() {
 
         </Routes>
           {/* <Album name="xxxx" date="2020/01/01" /> */}
-        {/* <Footer />   */}
+        <Footer />  
       </Router>
     </>
   );

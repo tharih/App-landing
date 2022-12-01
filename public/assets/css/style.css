@@ -1002,7 +1002,7 @@ p {
 
 .product-single h4 {
     font-weight: 800;
-    color: #2273f8;
+   
     margin: 0 0 20px;
 }
 
@@ -1016,13 +1016,13 @@ p {
     display: inline-block;
     padding: 8px 16px;
     color: #fff;
-    background-color: #2273f8;
+    
     font-weight: 600;
     border-radius: 30px;
 }
 
 .product-single a:hover {
-    background-color: #0857d8;
+    
 }
 
 /*-------------------------------------------------------------------------------------
