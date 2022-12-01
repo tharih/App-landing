@@ -23,10 +23,10 @@ export default function Header() {
                 {/* <!--logo--> */}
                 <a class="logo" href="#"><img src="assets/images/logo.png" alt="logo" /></a>
                 {/* <!--scroll logo--> */}
-                <a class="logo-scroll" href="#"><img src="assets/images/logo-scroll.png" alt="logo" /></a>
-                <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <a class="logo-scroll" href="#"><img src="assets/images/logo.png" alt="logo" /></a>
+                {/* <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
                         <span class="icofont-navigation-menu"></span>
-                    </button>
+                    </button> */}
                 <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
                     <ul class="navbar-nav mx-auto text-center">
                         <li class="nav-item">

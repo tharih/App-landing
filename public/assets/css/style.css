@@ -51,7 +51,8 @@ body {
     color: #000;
     position: relative;
     overflow-x: hidden;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    
 }
 
 ul {
@@ -413,7 +414,7 @@ p {
     width: 15px;
     height: 6px;
     margin: 0 4px;
-    background-color: #fff;
+    background-color: #333333;
     border-radius: 2px;
     margin: 0 4px;
     border: 0;
@@ -990,10 +991,10 @@ p {
 }
 
 .product-single {
-    border: 1px solid #eff0f1;
+   
     padding: 35px 20px 45px;
     border-radius: 10px;
-    background-color: #fafafa
+    
 }
 
 .product-single img {
