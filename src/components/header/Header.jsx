@@ -24,7 +24,7 @@ export default function Header() {
               {/* <a class="logo-scroll" href="#">
                 <img src="assets/images/logo.png" alt="logo" />
               </a> */}
-              <a class="logo-top" href="#">
+              <a class="logo-top" href="Home">
                 <img src="assets/images/logo.png" alt="logo" />
               </a>
               <div className="topbar-typography">
@@ -38,7 +38,7 @@ export default function Header() {
           </div>
           <nav class="navbar navbar-expand-lg justify-content-center">
             {/* <!--logo--> */}
-            <a class="logo" href="#">
+            <a class="logo" href="Home">
               <img src="assets/images/logo.png" alt="logo" />
             </a>
             {/* <!--scroll logo--> */}

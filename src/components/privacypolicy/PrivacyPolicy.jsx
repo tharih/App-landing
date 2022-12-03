@@ -1,13 +1,20 @@
 import React from "react";
+import MobileFooter from "../footer/MobileFooter";
+import PageImageBG from "../PageImageBG";
 
 export default function PrivacyPolicy() {
   return (
     <div>
-      <section id="page" class="">
+      <section id="page1" class="">
         <div className="container">
+        {/* <PageImageBG /> */}
           <div className="about-topic">
             <h2>Tackgram Privacy Policy</h2>
-            <p>
+      </div>
+      <div className="about-sub-topic">
+
+            <p><span>
+
               This Privacy Policy describes Tackgram’s policies and procedures
               on the collection, use, and disclosure of your information.
               Tackgram receives your information through our applications, and
@@ -19,21 +26,28 @@ export default function PrivacyPolicy() {
               which country that you reside in or create information from, your
               information may be used by Tackgram in the United States or any
               other country where Tackgram operates.
+            </span>
             </p>
             <p>
+              <span>
+
               If you have any questions or comments about this Privacy Policy,
-              please contact us at privacy@tackgram.com.
+              please contact us at <span1>privacy@tackgram.com.</span1>
+              </span>
             </p>
-          </div>
+      </div>
           <div className="about-sub-topic">
             <h4>Information Collection and Use</h4>
+            <div className="about-sub-sub-topic">
+
             <p>
               Tip: We collect and use your information to provide and measure
               use of our Services and improve them over time.
             </p>
+            </div>
 
             <p>
-              Information Collected Upon Registration: When you create or
+              <span>Information Collected Upon Registration:</span> When you create or
               reconfigure a Tackgram account, you provide some personal
               information, such as your name, username, password, and email
               address. Some of this information, for example, your name and
@@ -43,7 +57,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              Additional Information: You may provide us with additional
+              <span>Additional Information:</span> You may provide us with additional
               information to make public, such as a short biography "Bio", your
               location, or a picture. We may use your contact information to
               send you information about our Services or to market to you. You
@@ -56,7 +70,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              Posts, Following, and other Public Information: Our Services are
+              <span>Posts, Following, and other Public Information:</span> Our Services are
               primarily designed to help you share information with the world.
               Most of the information you provide to us is information you are
               asking us to make public. This includes not only the messages you
@@ -72,13 +86,16 @@ export default function PrivacyPolicy() {
               all information that will be made public by Tackgram, not just
               your Posts.
             </p>
+            <div className="about-sub-sub-topic">
+
             <p>
               {" "}
               Tip: What you say on Tackgram may be viewed all around the world
               instantly.
             </p>
+            </div>
             <p>
-              Log Data: Our server’s automatically records information (“Log
+              <span>Log Data:</span> Our server’s automatically records information (“Log
               Data”) created by your use of the Services. Log Data may include
               information such as your IP address, your mobile carrier, device
               and application IDs, and search terms. Other actions, such as
@@ -88,14 +105,14 @@ export default function PrivacyPolicy() {
               your username, full IP address, or email address, after 6 months.
             </p>
             <p>
-              Links: Tackgram may keep track of how you interact with links in
+              <span>Links:</span> Tackgram may keep track of how you interact with links in
               Posts across our Services and clients by redirecting clicks or
               through other means. We do this to help improve our Services and
               to be able to share aggregate click statistics such as how many
               times a particular link was clicked on.
             </p>
             <p>
-              Security of data: The security of your personal data is important
+              <span>Security of data:</span> The security of your personal data is important
               to us; we guarantee its absolute security. This is the main reason
               that the Tackgram platform was created for “high user privacy.”
               Also, we will never sell your information to third parties under
@@ -103,7 +120,7 @@ export default function PrivacyPolicy() {
               anything.
             </p>
             <p>
-              Third Party Services: Tackgram uses a variety of services hosted
+              <span>Third Party Services:</span> Tackgram uses a variety of services hosted
               by third parties to help provide our Services, such as Google
               Analytics.
             </p>
@@ -112,14 +129,14 @@ export default function PrivacyPolicy() {
           <div className="about-sub-topic">
             <h4>End-to-end encryption in Direct Messages</h4>
             <p>
-              Privacy and security: Privacy and security are in our DNA, which
+              <span>Privacy and security:</span> Privacy and security are in our DNA, which
               is why we built end-to-end encryption into our Direct Messages.
               When end-to-end encrypted, your messages, photos, videos, voice
               messages and documents are secured from falling into the wrong
               hands.
             </p>
             <p>
-              Personal Messaging: Tackgram's end-to-end encryption is used when
+              <span>Personal Messaging:</span> Tackgram's end-to-end encryption is used when
               you chat with another person on the Tackgram app. End-to-end
               encryption ensures only you and the person you're communicating
               with can read or listen to what is sent and nobody in between, not
@@ -130,8 +147,8 @@ export default function PrivacyPolicy() {
               secure your messages.
             </p>
             <p>
-              What's the "Verify Security Code" screen in the conversation info
-              screen?
+             <span>What's the "Verify Security Code" screen in the conversation info
+              screen?</span> 
             </p>
 
             <p>
@@ -142,7 +159,7 @@ export default function PrivacyPolicy() {
 
             <p>
               {" "}
-              Note: The verification process is optional for end-to-end
+              <span>Note:</span> The verification process is optional for end-to-end
               encrypted chats, and only used to confirm that the messages you
               send are end-to-end encrypted.
             </p>
@@ -171,17 +188,20 @@ export default function PrivacyPolicy() {
 
           <div className="about-sub-topic">
             <h4>Information Sharing and Disclosure</h4>
+            <div className="about-sub-sub-topic" >
+
             <p>
               Tip: We do not disclose your private information except in the
               limited circumstances described here.
             </p>
+            </div>
             <p>
-              Your Consent: We may share or disclose your information with your
+              <span>Your Consent:</span> We may share or disclose your information with your
               consent only.
             </p>
 
             <p>
-              Service Providers: We engage certain trusted third parties to
+              <span>Service Providers:</span> We engage certain trusted third parties to
               perform functions and provide services to us. We may share your
               personal information with these third parties, but only to the
               extent necessary to perform these functions and provide such
@@ -190,7 +210,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              Law and Harm: We may preserve or disclose your information if we
+              <span>Law and Harm:</span> We may preserve or disclose your information if we
               believe that it is reasonably necessary to comply with a law,
               regulation, or legal request; to protect the safety of any person;
               to address fraud, security, or technical issues; or to protect
@@ -198,7 +218,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              Non-Private or Non-Personal Information: We may share or disclose
+              <span>Non-Private or Non-Personal Information:</span> We may share or disclose
               your non-private, aggregated, or otherwise non-personal
               information, such as your public Posts or the number of users who
               clicked on a particular link (even if only did once).
@@ -250,6 +270,8 @@ export default function PrivacyPolicy() {
 
         </div>
       </section>
+      <MobileFooter />
+
     </div>
   );
 }

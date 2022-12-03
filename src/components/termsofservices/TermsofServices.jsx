@@ -1,16 +1,21 @@
 import React from "react";
 import ImageBG from "../ImageBG";
 import PageImageBG from "../PageImageBG";
+import Footer from "../footer/Footer";
+import MobileFooter from "../footer/MobileFooter";
 
 export default function TermsofServices() {
   return (
     <div>
       <section id="page" class="">
-        <PageImageBG />
         <div className="container">
+          {/* <PageImageBG /> */}
           <div className="about-topic">
             <h2>Tackgram Terms of Service</h2>
-            <p>
+          </div>
+            <div className="about-sub-topic">
+            <p><span>
+
               These Terms of Service (“Terms”) govern your access to and use of
               the services and Tackgram’s applications (the “Services”), and any
               information, text, graphics, photos or other materials uploaded,
@@ -19,10 +24,10 @@ export default function TermsofServices() {
               conditioned on your acceptance of and compliance with these Terms.
               By accessing or using the Services you agree to be bound by these
               Terms.
+            </span>
             </p>
-          </div>
+            </div>
           <div className="about-sub-topic">
-          <PageImageBG />
             <h4>Basic Terms</h4>
             <p>
               You are responsible for your use of the Services, for any Content
@@ -32,11 +37,13 @@ export default function TermsofServices() {
               control who sees your Content). You should only provide Content
               that you are comfortable sharing with others under these Terms.
             </p>
-
+<div className="about-sub-sub-topic">
             <p>
               Tip: What you say on Tackgram may be viewed all around the world
               instantly. You are what you Post!{" "}
             </p>
+
+</div>
 
             <p>
               You may use the Services only if you can form a binding contract
@@ -135,11 +142,14 @@ export default function TermsofServices() {
               transmit, display and distribute such Content in any and all media
               or distribution methods (now known or later developed).
             </p>
+            <div className="about-sub-sub-topic">
+
             <p>
               {" "}
               Tip: This license is you authorizing us to make your Posts
               available to the rest of the world and to let others do the same.
             </p>
+            </div>
 
             <p>
               We may modify or adapt your Content in order to transmit, display
@@ -203,10 +213,13 @@ export default function TermsofServices() {
               support requests, or (v) protect the rights, property or safety of
               Tackgram, its users and the public.
             </p>
+            <div className="about-sub-sub-topic">
+
             <p>
               Tip: Tackgram does not disclose personally identifying information
               to third parties except in accordance with our Privacy Policy.
             </p>
+            </div>
             <p>
               You may not do any of the following while accessing or using the
               Services: (i) access, tamper with, or use non-public areas of the
@@ -268,7 +281,7 @@ export default function TermsofServices() {
             </p>
             <p>Tackgram, Inc. </p>
             <p>Tackgram Copyright Agent</p>
-            <p>Email: copyright@tackgram.com</p>
+            <p>Email: <span>copyright@tackgram.com</span></p>
           </div>
 
           <div className="about-sub-topic">
@@ -369,19 +382,22 @@ export default function TermsofServices() {
               or in place of these Terms), and these Terms supersede and replace
               any prior agreements between Tackgram and you regarding the
               Services. No person or company will be third party beneficiaries
-              to the Terms. 
+              to the Terms.
             </p>
-            <p>We may revise these Terms from time to time, If the
-              revision, in our sole discretion, is material we will notify you
-              via an @Tackgram update or e-mail to the email associated with
-              your account. By continuing to access or use the Services after
-              those revisions become effective, you agree to be bound by the
-              revised Terms. If you have any questions about these Terms, please
-              contact us.</p>
-              <p> Effective: March 15, 2021</p>
+            <p>
+              We may revise these Terms from time to time, If the revision, in
+              our sole discretion, is material we will notify you via an
+              @Tackgram update or e-mail to the email associated with your
+              account. By continuing to access or use the Services after those
+              revisions become effective, you agree to be bound by the revised
+              Terms. If you have any questions about these Terms, please contact
+              us.
+            </p>
+            <p> Effective: March 15, 2021</p>
           </div>
         </div>
       </section>
+      <MobileFooter />
     </div>
   );
 }
